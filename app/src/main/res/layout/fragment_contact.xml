@@ -24,7 +24,7 @@
             android:textColorHint="@color/button_hint_text_color" />
 
         <TextView
-            android:id="@+id/btn_login"
+            android:id="@+id/btn_send"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/item_space_size"
