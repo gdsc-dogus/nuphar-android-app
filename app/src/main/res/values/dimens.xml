@@ -7,5 +7,11 @@
     <dimen name="button_padding">15dp</dimen>
     <dimen name="edittext_padding">15dp</dimen>
     <dimen name="item_space_size">20dp</dimen>
+    <dimen name="event_item_title_size">20sp</dimen>
+    <dimen name="event_item_description_size">17sp</dimen>
+    <dimen name="event_item_btn_text_size">18sp</dimen>
+    <dimen name="event_item_space_size">5dp</dimen>
+    <dimen name="activity_main_content_vertical_padding">100dp</dimen>
+    <dimen name="activity_main_content_horizontal_padding">20dp</dimen>
 
 </resources>

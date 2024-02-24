@@ -25,6 +25,6 @@
     <color name="button_hint_text_color">#B5578A23</color>
 
     <color name="edittext_background_color">@color/green_5</color>
-    <color name="edittext_stroke_focused_color">@color/green_3</color>
-    <color name="edittext_stroke_default_color">@color/green_2</color>
+    <color name="edittext_stroke_focused_color">@color/green_2</color>
+    <color name="edittext_stroke_default_color">@color/green_3</color>
 </resources>

@@ -62,7 +62,7 @@
             android:clickable="true"
             android:textColor="@color/button_text_color"
             android:gravity="center"
-            android:text="LOGIN"
+            android:text="@string/btn_login"
             android:textSize="@dimen/button_text_size" />
 
         <TextView
@@ -82,7 +82,7 @@
             android:clickable="true"
             android:textColor="@color/button_text_color"
             android:gravity="center"
-            android:text="REGISTER"
+            android:text="@string/btn_register"
             android:textSize="@dimen/button_text_size" />
 
     </LinearLayout>

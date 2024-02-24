@@ -27,5 +27,12 @@ class EventRVAdapter(var eventArrayList: ArrayList<EventModel>) :
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val eventModel = eventArrayList[position]
 
+        holder.binding.tvTitle.text = eventModel.title;
+        holder.binding.tvDescription.text = eventModel.description;
+
+        if (eventArrayList.size == position + 1)
+            holder.binding.vLine.visibility = View.GONE
+        else
+            holder.binding.vLine.visibility = View.VISIBLE
     }
 }
