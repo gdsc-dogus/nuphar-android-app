@@ -81,10 +81,20 @@
         android:background="@drawable/bg_curved_edge_bottom"
         app:layout_constraintTop_toTopOf="parent">
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleX="1.14"
+            android:scaleY="1.14"
+            android:src="@drawable/logo" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:alpha="0.8"
             android:text="@string/nuphar_login"
             android:textColor="@color/title_color"
             android:textSize="@dimen/title_size" />
